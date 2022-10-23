@@ -120,6 +120,11 @@ nav ul {
 .contact-inf:focus {
   color: var(--accent-color);
 }
+
+.nav-link.current {
+  color: var(--accent-color);
+}
+
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -163,6 +168,9 @@ nav ul {
 .hero button:hover {
   cursor: pointer;
 }
+.advantages {
+  padding-top: 94px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -179,7 +187,6 @@ nav ul {
 }
 
 .advantages-list {
-  padding-top: 94px;
   display: flex;
   justify-content: space-between;
 }
@@ -271,7 +278,7 @@ footer {
   background-color: var(--background-footer);
 }
 
-footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
